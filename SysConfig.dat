@@ -1,0 +1,100 @@
+[Install]
+DefDir=VIVO INTERNET
+AppTitle=VIVO INTERNET
+AppName=VIVO INTERNET.exe
+Publisher=Huawei Technologies Co.,Ltd
+URLInfoAbout=http://www.huawei.com
+HelpLink=http://mobile.huawei.com
+RealName=Mobile Partner.app
+
+[DRIVER]
+WLAN=0
+
+[FinishPage]
+run=\eap\wifiman_inistall.exe
+runtext=
+
+[execwait]
+uninstall=\eap\wifiman_unistall.exe
+
+[shortcut]
+dest1=VIVO INTERNET.exe
+name1=VIVO INTERNET
+dest2=uninst.exe
+name2=Uninstall
+usermanual=User Manual
+usermanualfile=
+desktop_url=Kantoo English
+desktop_url_link=http://www.kantoo.com/online
+desktop_ur2=Segurança Online
+desktop_ur2_link=http://segurancaonline.vivo.com.br/mdm
+desktop_ur3=Nuvem de Livros
+desktop_ur3_link=http://www.nuvemdelivros.com.br/modem/
+
+[regedit]
+TCPWindowSize=129940
+reboot=false
+
+[customize]
+operator=C149
+simtype=SIM/USIM
+uimtype=UIM
+FindDevice=false
+LaunchDashboard=false
+runasadmin=false
+IPv6Install=false
+driverFilterList=-nosms
+
+[language]
+name1=PortugueseBR
+name2=English
+
+[System]
+FileVersion=1
+VRVersion=23
+VVersion=200
+RVersion=003
+BuildVersion=009
+DebugVersion=09
+SPVersion=02
+CustomizeVersion=149
+
+[SPLASH]
+SHOW_PROMPT=NO
+PROMPT_MESSAGE=PromptInfo.exe
+LANGPATH=PromptInfo
+LANGFILE=English.dat
+
+[PNPCTRL]
+EXEC_REWIND=YES
+DEFAULT_TIMEOUT=10
+WIN2000_TIMEOUT=10
+
+[EHIDS_PRODUCT_VERSION]
+COMMENT=
+RUN_INSTALL_APP=YES
+RUN_CLIENT_APP=YES
+L_REG_PATH=SOFTWARE\Huawei technologies\VIVO INTERNET
+APP_FILE_NAME=VIVO INTERNET.exe
+APP_INSTALL_PATH=VIVO INTERNET
+VALUE=23.009.09.02.149
+
+[SD_INFORMATION]
+SD_DETECT=YES
+ANTI_VIRUS_REG_PATH=SOFTWARE\Symantec\SPBBC
+ANTI_VIRUS_FILE_PATH=\Norton\NIS081550.exe
+REMIND_SENTENCE=Remind you to install antivirus software?
+
+[SD_THIRDPARTY_SETUP]
+SD_THIRD_SETUP=NO
+SD_THIRD_FILE_PATH=PUBLIC
+SD_THIRD_FILE_NAME=HuaweiProtectorSuite.dmg
+SD_RUN_THIRD_FILE_ONCE=YES
+
+[VIRCDROM_INFORMATION]
+ANTI_VIRUS_TREND_EXE=\AntiVirus\TmSync.exe
+
+[APP_PATH]
+VALUE=/Applications/Mobile Partner.app
+RUN_PROCESS_DLG=YES
+
